@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Введите первое число и нажмите Enter");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите второе число и нажмите Enter");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите третье число и нажмите Enter");
+int c = int.Parse(Console.ReadLine());
+int max1 = Math.Max(a,b);
+int max2 = Math.Max(b,c);
+int max3 = Math.Max(max1, max2);
+Console.WriteLine($"Максимальное число -> {max3}");
